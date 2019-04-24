@@ -9,6 +9,9 @@ helm dependency update clair
 helm install --name clair clair
 ```
 
+## To run clair scan
+# @TODO: Add examples of running scans on your images
+
 ## Troubleshooting
 
 #### If the installation fails, make sure `tiller` service account is created with the appropriate RBAC
